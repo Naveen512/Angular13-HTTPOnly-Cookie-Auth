@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+      <div class="col col-md-4 offset-md-4">
+        <legend>Your Favorite Movies!</legend>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-3 m-2" *ngFor="let movie of favouriteMovies">
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">{{movie}}</h5>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  
